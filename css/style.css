@@ -304,8 +304,7 @@ footer a {
 
 /* code examples copyright Jonathan Grover 2012 */
 section.shadow.col-1.clearfix {
-    margin-left: 0;
-    margin-right: 2%;
+    margin: 2% 2% 0 0;
 }
 
 figure {
