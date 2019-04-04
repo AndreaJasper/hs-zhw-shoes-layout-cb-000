@@ -344,3 +344,8 @@ figure {
 section.shadow.col-1.first.right {
     float: right;
 }
+
+
+section.shadow.col-2.first {
+    margin-right: 2%;
+}
