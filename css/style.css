@@ -303,49 +303,27 @@ footer a {
 }
 
 /* code examples copyright Jonathan Grover 2012 */
-section.shadow.col-1.clearfix {
-    margin: 1% 2% 0 0;
-}
-
-figure {
-  display: inline;
-}
-
 .col-1 {
-    float: left;
-    width: 31%;
+  float: left;
+  width: 32%;
 }
 
-
-.col-2 {
-    float: left;
-    width: 64%;
+ .col-2 {
+  float: left;
+  width: 66%;
 }
 
-.col-3 {
-    float: left;
+ .col-3 {
+  float:left;
+  width: 100%;
+
+ }
+
+ [class*="col-"] {
+  margin-left: 2%;
 }
 
-.clearfix:after {
-    line-height: 0;
-    display: block;
-    height: 0;
-}
-
-[class*="col-"] {
-    margin-left: 2%;
-}
-
-.first {
-    margin-left: 0%;
-}
-
-
-section.shadow.col-1.first.right {
-    float: right;
-}
-
-
-section.shadow.col-2.first {
-    margin-right: 2%;
+ .first {
+  margin-left:0%;
+  margin-bottom: 2%;
 }
